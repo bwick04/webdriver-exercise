@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@wdio/cli": "^8.16.6",
+    "chai": "^4.0.1",
+    "chai-webdriverio": "^1.0.0",
+    "webdriverio": "^8.16.6"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^8.16.6",
+    "@wdio/mocha-framework": "^8.16.3",
+    "@wdio/spec-reporter": "^8.16.3"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  }
+}
