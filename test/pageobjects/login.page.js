@@ -2,7 +2,6 @@ const { $ } = require('@wdio/globals')
 const Page = require('./page');
 
 class LoginPage extends Page {
-
     get flashAlert () { return $('#flash') }
     get inputUsername () { return $('#username') }
     get inputPassword () { return $('#password') }

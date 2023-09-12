@@ -3,7 +3,6 @@ const Page = require('./page');
 
 
 class SecurePage extends Page {
-
     get flashAlert () { return $('#flash') }
     get logoutButton () { return $('a[href="/logout"]') }
 
