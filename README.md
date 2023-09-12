@@ -2,7 +2,7 @@
 
 1. Clone the project:
 ```
-git clone
+git clone https://github.com/bwick04/bennywick-webdriver.git
 ```
 2. From the root folder, install packages:
 ```
